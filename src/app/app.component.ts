@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'param-routing';
+  
+  
+  val="swamy"
+  a=10;
+  b=20;
+  display=(this.a==this.b);
+  color;
+
+  fruits:any=["Banana","Sapota","Mango","Grapes","Apple"]
+  
 }
